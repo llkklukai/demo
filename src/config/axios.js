@@ -35,7 +35,8 @@ export const postRequest = (url, params) => {
     url: `${base}${url}`,
     data: params,
     headers: {
-      'Content-Type': 'application/json'
+        // 'Content-Type': 'application/json',
+      token:"i am token"
     }
   });
 }
